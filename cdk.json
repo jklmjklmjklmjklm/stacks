@@ -1,5 +1,5 @@
 {
-  "app": "node bin/stacks.js",
+  "app": "node bin/S3Website.js",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
