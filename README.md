@@ -1,7 +1,13 @@
 # Stacks
-Stacks made using AWS Cloud Development Kit
+AWS Cloud Development Kit Stack Templates
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
+The `bin` contains AWS CDK App definitions
+The `lib` contains AWS CDK Stack definitions
+
+There are multiple apps that can be deployed. Be sure to set the correct app in the `cdk.json` file.
+
+## Issues
+1. Unable to use an ECS Task Definition from lookup in creating an ECS Service
 
 ## Useful commands
 
